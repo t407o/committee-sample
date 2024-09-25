@@ -1,0 +1,23 @@
+openapi: 3.0.3
+info:
+  title: Title
+  description: Title
+  version: 1.0.0
+paths:
+  /:
+    get:
+      summary: test api
+      description: test
+      responses:
+        '200':
+          description: no content
+        '400':
+          description: bad request
+    put:
+      summary: test api
+      description: test
+      responses:
+        '204':
+          description: no content
+        '400':
+          description: bad request
